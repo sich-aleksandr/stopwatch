@@ -1,0 +1,7 @@
+<div class="container">
+  {{stopwatch.minutes}} <span>m</span> {{stopwatch.seconds}} <span>s</span>
+</div>
+<button (click)="startCount()">Start</button>
+<button (click)="stopTimer()">Stop</button>
+<button (click)="dbClickCheck()" #dbClick>Wait</button>
+<button (click)="resetTimer()">Reset</button>

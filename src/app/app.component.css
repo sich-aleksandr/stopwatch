@@ -1,0 +1,22 @@
+.container {
+  font-family: Lato;
+  margin: 20px;
+  font-size: 28px;
+
+}
+
+.container span {
+  color: #000;
+  font-size: 18px;
+}
+
+button {
+  width: 60px;
+  margin: 10px 20px;
+  padding: 10px;
+
+}
+
+button:hover {
+  cursor: pointer;
+}
